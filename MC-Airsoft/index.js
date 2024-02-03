@@ -8,10 +8,10 @@ function downloadRelease(platform) {
             downloadLink = ''
             break;
         case 'Linux':
-            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-Linux.tar.gz';
+            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MCAirsoft.x86_64';
             break;
         case 'Windows':
-            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-Windows.zip';
+            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MCAirsoft.exe';
             break;
     }
 
