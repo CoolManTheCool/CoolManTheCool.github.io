@@ -19,3 +19,16 @@ function downloadRelease(platform) {
 
     window.location.href = downloadLink;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const fadeHeader = document.querySelector(".fade-header");
+  
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 50) {
+        fadeHeader.classList.add("hide");
+      } else {
+        fadeHeader.classList.remove("hide");
+      }
+    });
+  });
+  
