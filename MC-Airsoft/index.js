@@ -5,6 +5,7 @@ function downloadRelease(platform) {
     switch (platform) {
         case 'MacOS':
             downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-MacOS.zip';
+            downloadLink = ''
             break;
         case 'Linux':
             downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-Linux.tar.gz';
