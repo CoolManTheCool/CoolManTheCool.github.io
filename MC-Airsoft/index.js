@@ -12,9 +12,6 @@ function downloadRelease(platform) {
         case 'Windows':
             downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-Windows.zip';
             break;
-        case 'Web':
-            downloadLink = 'MC-Airsoft_Web/MCAirsoft.html'
-            break;
     }
 
     window.location.href = downloadLink;
