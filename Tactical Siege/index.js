@@ -1,3 +1,8 @@
+
+var mac = "https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical-Siege-MacOS.zip";
+var win = "https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical-Siege-Windows.zip";
+var linux = "https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical-Siege-Linux.zip";
+
 function downloadRelease(platform) {
     // Replace the following link with the actual link to the release for each platform
     let downloadLink = '';
