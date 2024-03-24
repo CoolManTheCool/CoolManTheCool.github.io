@@ -4,14 +4,13 @@ function downloadRelease(platform) {
 
     switch (platform) {
         case 'MacOS':
-            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MC-Airsoft-MacOS.zip';
-            downloadLink = ''
+            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical_Siege_MacOS.zip';
             break;
         case 'Linux':
-            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MCAirsoft.x86_64';
+            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical_Siege_Linux.zip';
             break;
         case 'Windows':
-            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/MCAirsoft.exe';
+            downloadLink = 'https://github.com/CoolManTheCool/MC-Airsoft/releases/latest/download/Tactical_Siege_Windows.zip';
             break;
     }
 
