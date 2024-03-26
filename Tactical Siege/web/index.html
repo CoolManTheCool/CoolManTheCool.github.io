@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tactical Siege | CoolManTheCool</title>
+<script src="coi-serviceworker.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <header class="fade-header">
+        <div class="header-content">
+           <h1>Tactical Siege</h1>
+           <nav>
+              <a href="../../">Home</a>
+              <a href="../">Download</a>
+              <a href="../../blog/">Blog</a>
+           </nav>
+        </div>
+     </header>
+
+<main class="main">
+   <section id="gameSection">
+      <h2>Tactical Siege</h2>
+      <p>Do I really need to explain?</p>
+      <iframe src="game/game.html" id="gameFrame" frameborder="0"></iframe>
+   </section>
+   <button class="button button-default" id="fullscreenButton">Toggle Fullscreen</button>
+</main>
+
+<footer>
+    <p>&copy; 2024 Nova Studios - noahgrimes0915@gmail.com</p>
+</footer>
+
+<script>
+document.getElementById('fullscreenButton').addEventListener('click', function() {
+   var iframe = document.getElementById('gameFrame');
+   if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+   } else if (iframe.webkitRequestFullscreen) { /* Safari */
+      iframe.webkitRequestFullscreen();
+   } else if (iframe.msRequestFullscreen) { /* IE11 */
+      iframe.msRequestFullscreen();
+   }
+});
+</script>
+
+</body>
+</html>

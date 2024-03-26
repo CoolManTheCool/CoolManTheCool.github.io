@@ -3,6 +3,7 @@ var github = "https://github.com/CoolManTheCool/Tactical-Siege/releases/latest/d
 var mac = "Tactical-Siege-MacOS.zip";
 var win = "Tactical-Siege-Windows.zip";
 var linux = "Tactical-Siege-Linux.zip";
+var web = "web/";
 
 function downloadRelease(platform) {
     // Replace the following link with the actual link to the release for each platform
@@ -18,6 +19,9 @@ function downloadRelease(platform) {
         case 'Windows':
             downloadLink = github+win;
             break;
+        case 'Web':
+          downloadLink = web;
+          break;
     }
 
     window.location.href = downloadLink;
